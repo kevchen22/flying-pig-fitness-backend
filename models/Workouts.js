@@ -29,7 +29,6 @@ const workoutsSchema = new Schema({
     },
     date: {
         type: Date,
-        required: true
     }
 
 })

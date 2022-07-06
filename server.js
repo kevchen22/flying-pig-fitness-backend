@@ -9,6 +9,9 @@ require('./config/database')
 app.use(express.json())
 app.use(cors())
 
+// Check if token and create req.user
+app.use(require('./config/checkToken'))
+
 // Routes
 // Users
 app.use('/api/v1/users', require('./routes/api/users'))

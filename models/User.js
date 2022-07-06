@@ -40,7 +40,6 @@ const userSchema = new Schema({
     },
     phone: String,
     picture: String,
-    active: Boolean,
 }, {
     timestamps: true,
     toJSON: {
@@ -52,5 +51,12 @@ const userSchema = new Schema({
         }
     }
 })
+
+userSchema.pre('save', async function(next) {
+    // This will only hash the password for our newly created user
+    this.password = await bcrypt.hash(this.password, saltRounds)
+    return next()
+})
+
 
 module.exports = mongoose.model('User', userSchema)
