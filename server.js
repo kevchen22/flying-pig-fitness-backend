@@ -22,6 +22,9 @@ const ensureLoggedIn = require('./config/ensureLoggedIn')
 // Workouts
 app.use('/api/v1/workouts', ensureLoggedIn, require('./routes/api/workouts'))
 
+// Exercises
+app.use('/api/v1/home', ensureLoggedIn)
+
 // ===== PORT =====
 const PORT = 8080
 
