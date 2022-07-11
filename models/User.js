@@ -38,8 +38,7 @@ const userSchema = new Schema({
         type: Number,
         required: true
     },
-    phone: String,
-    picture: String,
+    phone: String
 }, {
     timestamps: true,
     toJSON: {

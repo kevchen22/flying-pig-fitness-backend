@@ -23,12 +23,10 @@ const workoutsSchema = new Schema({
     avgHeartRate: {
         type: Number
     },
-    experience: {
-        type: String,
-        required: true
-    },
     date: {
         type: Date,
+        required: true,
+        trim: true
     }
 
 })
