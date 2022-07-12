@@ -5,7 +5,6 @@ Exercise and food database using exerciseDB, YouTube Search and Download, and Ca
 
 ## Technologies
 
-***
 
 1. Express
 2. Mongoose
@@ -14,7 +13,6 @@ Exercise and food database using exerciseDB, YouTube Search and Download, and Ca
 
 ## Stretch Goals
 
-***
 
 - In long run, syncing app with a fitbit/Apple Watch that can track workouts and calories burned, instead of manually entering in the information.
 - Combine the food diary and food search onto one page to allow the user for easier access to nutrition.
