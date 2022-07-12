@@ -1,26 +1,28 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const workoutsSchema = new Schema({
-    workout: {
+const foodLogSchema = new Schema({
+    food: {
         type: String,
         required: true
-    },
-    duration: {
-        type: Number,
-        required: true
-    },
-    sets: {
-        type: Number
-    },
-    reps: {
-        type: Number
     },
     calories: {
         type: Number,
         required: true
     },
-    avgHeartRate: {
+    protein: {
+        type: Number
+    },
+    carbs: {
+        type: Number
+    },
+    fiber: {
+        type: Number
+    },
+    fat: {
+        type: Number
+    },
+    sugar: {
         type: Number
     },
     date: {
@@ -30,4 +32,4 @@ const workoutsSchema = new Schema({
 
 })
 
-module.exports = mongoose.model('Workouts', workoutsSchema)
+module.exports = mongoose.model('FoodLog', foodLogSchema)

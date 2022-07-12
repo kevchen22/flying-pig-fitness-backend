@@ -22,6 +22,9 @@ const ensureLoggedIn = require('./config/ensureLoggedIn')
 // Workouts
 app.use('/api/v1/workouts', ensureLoggedIn, require('./routes/api/workouts'))
 
+// Food Log
+app.use('/api/v1/foodlog', ensureLoggedIn, require('./routes/api/foodLog'))
+
 // Exercises
 app.use('/api/v1/home', ensureLoggedIn)
 
