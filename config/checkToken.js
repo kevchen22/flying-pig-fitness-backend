@@ -5,7 +5,6 @@ module.exports = (req, res, next) => {
     let token = req.get('Authorization')
 
     if(token) {
-        // We need a space for our token string between the word Bearer and our token
         token = token.replace('Bearer ', '')
 
         // Checking if token is valid and not expired

@@ -42,7 +42,6 @@ const userSchema = new Schema({
 }, {
     timestamps: true,
     toJSON: {
-        // ret is the JSON'ed user object
         transform: function (doc, ret) {
             // We don't want to return the password back to the client
             delete ret.password
