@@ -1,9 +1,7 @@
 # flying-pig-fitness-backend
 
-### Description
+## Description
 Exercise and food database using exerciseDB, YouTube Search and Download, and CalorieNinja API's
-
-***
 
 ## Technologies
 
