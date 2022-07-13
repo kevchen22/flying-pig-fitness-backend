@@ -12,9 +12,10 @@ Exercise and food database using exerciseDB, YouTube Search and Download, and Ca
 4. jsonwebtoken
 
 ## Routes
-Workouts (to log workouts): '/api/v1/workouts'
-Food Log (food diary): 'api/v1/foodlog'
-Home Page (home): '/api/v1/home
+
+1. Workouts (to log workouts): '/api/v1/workouts'
+2. Food Log (food diary): 'api/v1/foodlog'
+3. Home Page (home): '/api/v1/home
 
 ## Stretch Goals
 
