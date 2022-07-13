@@ -16,6 +16,8 @@ Exercise and food database using exerciseDB, YouTube Search and Download, and Ca
 1. Workouts (to log workouts): '/api/v1/workouts'
 2. Food Log (food diary): 'api/v1/foodlog'
 3. Home Page (home): '/api/v1/home
+4. Food API (look up food nutrition): '/food'
+5. Exercises API (look up exercises): '/home#exercises' (when you click on an exercise it redirects you to '/exercises/:id'
 
 ## Stretch Goals
 
